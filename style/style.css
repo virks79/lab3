@@ -1,0 +1,59 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header img {
+    float: left;
+    margin-right: 20px;
+    width: 150px;
+}
+
+header h1 {
+    color: orange;
+    font-style: italic;
+    text-shadow: 2px 2px 4px black;
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-left: 175px;
+    margin-top: 60px;
+}
+.big {
+    font-size: 30px;
+}
+.big::first-letter{
+    font-size: 70px
+}
+h3{
+    font-size: 30px;
+}
+.small{
+    font-size: x-large;
+}
+a {
+    font-weight: bold;
+    color: orange;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: orange;
+}
+
+a:focus,
+a:hover {
+    color: green;
+}
+main p {
+    font-size: larger;
+}
+footer p {
+    
+    font-size: small;
+    text-align: center;
+    margin-top: 100px;
+}
